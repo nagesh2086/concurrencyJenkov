@@ -10,6 +10,7 @@ public class MissedSignalsTest {
 	}
 }
 
+//comment out hassignalled and it's usage and see missing signals scenario
 class MyWaitNotify {
 
 	private MyMonitorObject monitor = new MyMonitorObject();
