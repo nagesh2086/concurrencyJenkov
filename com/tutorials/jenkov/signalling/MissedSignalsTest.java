@@ -18,7 +18,7 @@ class MyWaitNotify {
 
 	public void doWait() throws InterruptedException {
 		synchronized (monitor) {
-			if (!hasSignalled) {
+			if (!hasSignalled) {//Missed signals scenario
 				monitor.wait();
 			}
 		}
